@@ -11,3 +11,25 @@
       <?php wp_head(); ?>
     </head>
     <body>
+      <header>
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="<?php echo site_url(); ?>">
+               <img class="logo" src="<?php echo get_header_image(); ?>" alt="<?php echo(get_bloginfo('title')); ?>"/>
+              </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <?php wp_nav_menu(['menu_class' => 'nav navbar-nav responsive-nav main-nav-list']);   ?>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </header>

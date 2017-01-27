@@ -12,3 +12,18 @@ Text Domain: codeplus-theme
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+
+/*
+Header
+*/
+
+.navbar-nav ul li a, .navbar-nav ul li a:active, .navbar-nav ul li a:hover, .navbar-nav ul li a:link,
+.navbar-nav ul li a:visited {   text-decoration: none;
+                                color:#6B6B6B;   }
+
+.navbar-nav ul { list-style: none; }
+
+@media all and (min-width:768px) { .navbar-nav ul li { float:left;
+                                                        padding:20px; }
+                                    }
