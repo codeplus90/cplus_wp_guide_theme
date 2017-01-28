@@ -31,8 +31,19 @@ Header
 .navbar { margin-bottom:0px;
           background:#D4D3CD;
           border-color:#D4D3CD;
-          padding:10px;}  
+          padding:10px;}
 
  @media all and (min-width:768px) { .navbar-nav ul li { float:left;
                                                         padding:20px; }
                                     }
+/*
+Homepage
+*/
+
+.section-home {padding:30px 0px;}
+
+#chi-siamo {background: #ECECEC;}
+
+#chi-siamo img {width:100%;}
+
+#chi-siamo h2 {margin-bottom: 25px;}
