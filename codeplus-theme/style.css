@@ -24,6 +24,15 @@ Header
 
 .navbar-nav ul { list-style: none; }
 
-@media all and (min-width:768px) { .navbar-nav ul li { float:left;
+.logo { width:80px; }
+
+.navbar-brand {padding-top:5px;}
+
+.navbar { margin-bottom:0px;
+          background:#D4D3CD;
+          border-color:#D4D3CD;
+          padding:10px;}  
+
+ @media all and (min-width:768px) { .navbar-nav ul li { float:left;
                                                         padding:20px; }
                                     }
