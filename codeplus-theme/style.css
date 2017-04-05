@@ -68,3 +68,9 @@ a, a:link, a:visited, a:focus { color:#414141;
 #news {  background-color:#E3E0CD;}
 
 .container-news:hover img {opacity: 0.75;}
+
+/* Footer */
+
+footer {background: #000000;
+        color: #ffffff;
+        padding:10px 0px;}

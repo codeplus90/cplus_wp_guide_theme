@@ -21,5 +21,4 @@ get_header();
   </div>
 </section>
 <?php get_template_part('news-section'); ?>
-</body>
-</html>
+<?php get_footer(); ?>
