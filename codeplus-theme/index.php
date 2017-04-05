@@ -20,5 +20,6 @@ get_header();
     </div>
   </div>
 </section>
+<?php get_template_part('news-section'); ?>
 </body>
 </html>
